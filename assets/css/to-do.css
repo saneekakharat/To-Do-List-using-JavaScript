@@ -65,7 +65,7 @@ li:nth-child(odd){
     margin: 100px auto;
     background: #f7f7f7;
 }
-.completed{
+#completed{
     color: rgb(253, 180, 180);
     text-decoration: line-through;
 }
