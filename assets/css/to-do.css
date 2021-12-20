@@ -17,3 +17,6 @@ body{
     font-family:  Montserrat;
     background: #364f6b;
 }
+.fa-plus-circle{
+    float: right;
+}
