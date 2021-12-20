@@ -7,6 +7,7 @@ h1{
     font-weight: normal;
     color: white;
     font-family: fantasy;
+    text-align: center;
 }
 ul{
     list-style: none;
@@ -19,4 +20,52 @@ body{
 }
 .fa-plus-circle{
     float: right;
+}
+span{
+    background-color: #e9c46a;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color:white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+li{
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+input{
+    font-size: 18px;
+    background-color: #ebfffb;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    color: #ffd95c;;
+    border: 2px solid rgba(0, 0, 0, 0)
+}
+input:focus{
+    background-color: white;
+    border: 3px solid #f7e865;
+    outline: none;
+}
+li:nth-child(odd){
+    background-color: #eb7d75;
+}
+.container{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    width: 460px;
+    /* height: auto; */
+    margin: 100px auto;
+    background: #f7f7f7;
+}
+.completed{
+    color: rgb(253, 180, 180);
+    text-decoration: line-through;
 }
